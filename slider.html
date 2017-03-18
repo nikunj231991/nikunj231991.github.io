@@ -24,12 +24,12 @@
         <link rel="stylesheet" href="css/owl.theme.css">
         <link rel="stylesheet" href="css/style.css">
 
-        <!-- Color Styles | To Chage the color simply remove all the stylesheet form bellow without the color you want to keep -->
+        <!-- Color Styles -->
         <link rel="stylesheet" href="css/colors/color-green.css">
         <link rel="stylesheet" href="css/colors/color-blue.css">
-        <link rel="stylesheet" href="css/colors/color-aqua.css">
         <link rel="stylesheet" href="css/colors/color-purple.css">
         <link rel="stylesheet" href="css/colors/default-color.css">
+        <link rel="stylesheet" href="css/colors/color-aqua.css">
 
         <!-- Responsive CSS -->
         <link rel="stylesheet" href="css/responsive.css">
@@ -52,52 +52,87 @@
     </head>
     <body>
 
-    <!-- Heaser Area Start -->
-    <header class="header-area">
-        <!-- Navigation start -->
-        <nav class="navbar navbar-custom tb-nav" role="navigation">
-            <div class="container">        
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#tb-nav-collapse">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand logo" href="#"><h2>eff<span>acy</span></h2></a>
-              </div>
-          
-              <div class="collapse navbar-collapse" id="tb-nav-collapse">
-          
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a class="page-scroll" href="#top">Home</a></li>
-                    <li><a class="page-scroll" href="#about">About</a></li>
-                    <li><a class="page-scroll" href="#testimonial">Testimonial</a></li>
-                    <li><a class="page-scroll" href="#portfolio">Portfolio</a></li>
-                    <li><a class="page-scroll" href="#pricing">Pricing</a></li>
-                    <li><a class="page-scroll" href="#blog">Blog</a></li>
-                    <li><a class="page-scroll" href="#contact">Contact Us</a></li>
-                </ul>
-              </div>
-            </div>
-        </nav>
-    </header>
+        <!-- Heaser Area Start -->
+        <header class="header-area">
+            <!-- Navigation start -->
+            <nav class="navbar navbar-custom tb-nav" role="navigation">
+                <div class="container">        
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#tb-nav-collapse">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand logo" href="#"><h2>eff<span>acy</span></h2></a>
+                  </div>
+              
+                  <div class="collapse navbar-collapse" id="tb-nav-collapse">
+              
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a class="page-scroll" href="#top">Home</a></li>
+                        <li><a class="page-scroll" href="#about">About</a></li>
+                        <li><a class="page-scroll" href="#testimonial">Testimonial</a></li>
+                        <li><a class="page-scroll" href="#portfolio">Portfolio</a></li>
+                        <li><a class="page-scroll" href="#pricing">Pricing</a></li>
+                        <li><a class="page-scroll" href="#blog">Blog</a></li>
+                        <li><a class="page-scroll" href="#contact">Contact Us</a></li>
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+        </header>
         <!-- Navigation end -->
 
-        <!-- hero-section -->
-        <section class="hero-section static-bg" id="top">
-                <div class="slider-caption">
-                    <div class="container">
-                        <div class="row">
-                            <!-- Hero Title -->
-                            <h1>welcome to <span>effacy</span></h1>
-                            <!-- Hero Subtitle -->
-                            <h5>we advice + we design + we develope</h5>
+        <!-- hero-slider-section -->
+        <section id="top"> 
+            <!-- Carousel -->
+            <div id="main-slide" class="carousel slide carousel-fade" data-ride="carousel">
+
+                <!-- Carousel inner -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <!-- Slider Image -->
+                        <img class="img-responsive" src="img/bg/slider/slider-bg1.jpg" alt="slider">
+                        <div class="slider-content">
+                            <div class="col-md-12 text-center">
+                                <h1 class="animated2">We are <span>passionate</span></h1>
+                                <h5 class="animated3">we are passionate about web development</h5>     
+                            </div>
                         </div>
-                    </div>
-                </div>
+                    </div><!--/ Carousel item end -->
+                    <div class="item">.
+                        <!-- Slider Image -->
+                        <img class="img-responsive" src="img/bg/slider/slider-bg2.jpg" alt="slider">
+                        <div class="slider-content">
+                            <div class="col-md-12 text-center">
+                                <h1 class="animated4">we are <span>creative</span></h1>
+                                <h5 class="animated5">creativity is our stregnth</h5>     
+                            </div>
+                        </div>
+                    </div><!--/ Carousel item end -->
+                    <div class="item">
+                        <!-- Slider Image -->
+                        <img class="img-responsive" src="img/bg/slider/slider-bg4.jpg" alt="slider">
+                        <div class="slider-content">
+                            <div class="col-md-12 text-center">
+                                <h1 class="animated6">welcome to <span>effacy</span></h1>
+                                <h5 class="animated7">awesome creative one page site</h5>     
+                            </div>
+                        </div>
+                    </div><!--/ Carousel item end -->
+                </div><!-- Carousel inner end-->
+
+                <!-- Carousel Controls -->
+                <a class="left carousel-control" href="#main-slide" data-slide="prev">
+                    <span><i class="fa fa-angle-left"></i></span>
+                </a>
+                <a class="right carousel-control" href="#main-slide" data-slide="next">
+                    <span><i class="fa fa-angle-right"></i></span>
+                </a>
+            </div>        
         </section>
-        <!-- End Of Hero Section -->
+        <!-- End of Hero Slider -->
 
         <!-- About Us Section -->
         
@@ -107,7 +142,6 @@
                     <div class="col-sm-6 col-xs-12 no-padding">
                         <!-- About Us Left -->
                         <div class="about-us-left">
-                            <!-- About Us Info -->
                             <h2 class="section-title-left">About our design</h2>
                             <p> Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod .</p>
                         </div>
@@ -121,7 +155,6 @@
                                     <i class="fa fa-lightbulb-o"></i>
                                 </div>
                                 <div class="media-body">
-                                    <!-- About Right Title -->
                                     <h3 class="media-heading">We Advice</h3>
                                     <p>Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. </p>
                                 </div>
@@ -158,9 +191,7 @@
 
         <section class="our-services-section section-padding" id="service">
             <div class="container">
-                <!-- Our service Section Title -->
                 <h2 class="section-title text-center">What we do</h2>
-                <!-- Our service  Section Subtitle -->
                 <p class="sub-title text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, magna aliqua.Ut enim <br> consectetur adipisicing  ad minim veniam</p>
 
                 <div class="row our-services">
@@ -172,7 +203,6 @@
                                 <i class="fa fa-laptop"></i>
                             </div>
                             <div class="media-body">
-                                <!-- Single service title -->
                                 <h3 class="media-heading">Ux/Ui Design</h3>
                                 <p>Lorem ipsum dolor sit amet, tetur adipisicing elit. Ut enim ad minim tae vitae dicta sunt explicabo.</p>
                             </div>
