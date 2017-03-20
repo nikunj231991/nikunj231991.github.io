@@ -1,13 +1,13 @@
 ﻿(function () {
     
-    emailjs.init("user_A5UERdceySkLKO2iou31Q");
+    emailjs.init("user_qpQpWuy67MnmnNtTmoPdN");
     var myform=$("#contactForm");
     myform.submit(function (event) {
         event.preventDefault();
 
         // Change to your service ID, or keep using the default service
-        var service_id = "outlook";
-        var template_id = "template_cLHc3lBk";
+        var service_id = "gmail";
+        var template_id = "template_Yn3gXQeZ";
         var fromname=myform.find("#name").val();
         var fromemail=myform.find("#email").val();
         var subject=myform.find("#subject").val();

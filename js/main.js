@@ -223,7 +223,7 @@ $(document).ready(function() {
                         lat: 23.208694, //Replace Here Location Google Map Lat
                         lng: 72.624668, //Replace Here Location Google Map Lng
                         scrollwheel: false,
-                        zoom: 17,
+                        zoom: 10,
                         zoomControl: true,
                         panControl: true,
                         streetViewControl: true,
